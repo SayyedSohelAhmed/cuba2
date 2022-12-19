@@ -1,0 +1,33 @@
+.input_details_container {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    gap: 2rem;
+    /* border: 1px solid black; */
+}
+.drawer_label{
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    margin-left: 5px;
+    padding: 5px;
+}
+.drawer_input_box{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.drawer_input{
+    width: 17rem;
+    margin-left: 10px;
+}
+.drawer_btn{
+margin-left: auto;
+
+}
+.drawer_btn_container{
+    display: flex;
+    justify-content: center;
+    margin-top: 2.5rem;
+}

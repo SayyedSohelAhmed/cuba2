@@ -1,0 +1,101 @@
+
+.main_login_container{
+  /* border: 1px solid black; */
+  width: 100;
+  height: 100%;
+}
+
+.error_alert_box{
+  display: flex;
+  justify-content: right;
+}
+
+.login_container {
+    position: relative;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    /* background-image: url('https://media.istockphoto.com/id/1284691550/vector/blue-abstract-geometric-dynamic-shape-paper-layers-subtle-background-vector.jpg?s=612x612&w=0&k=20&c=8a0N0F6hcHc08o2aZgTZdreUMhTxS24Zp61KgdQzGgM=');
+    background-repeat: repeat; */
+  }
+  
+  .card {
+    position: absolute;
+    right: 5rem;
+    /* border: 1px solid black; */
+    width: 25%;
+    height: 65vh;
+    /* border-radius: 2rem; */
+  }
+  
+  .input_container {
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .login_inputs {
+    display: flex;
+    align-self: center;
+    border-radius: 10px;
+    background-color: #e0dfeb;
+    width: 18rem;
+  }
+
+  .login_inputs_password {
+    display: flex;
+    border-radius: 10px;
+    background-color: #e0dfeb;
+    width: 15rem;
+    border: none;
+  }
+  .login_inputs_password_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    width: 18rem;
+    background-color: #e0dfeb;
+    margin-left: 2rem;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .login_label {
+    padding-left: 2rem;
+  }
+  
+  .signin_button {
+    background-color: #7366ff;
+    width: 7rem;
+    height: 2.5rem;
+    border-radius: 5px;
+    color: white;
+    font-size: large;
+    margin-left: 2rem;
+    border: none;   
+  }
+  
+  .chekbox {
+    display: flex;
+    align-items: center;
+  }
+  
+  .chekbox_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .check {
+    display: flex;
+    align-items: center;
+  }
+  
+  .signin_heading_container{
+    margin-left: 1rem;
+  }
